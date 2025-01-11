@@ -1,0 +1,108 @@
+Study ID	Patient ID	Sample ID	Diagnosis Age	Cancer Type	Cancer Type Detailed	Chemo First Line	Ethnicity Category	Fusion By RNA PCR	Metastasis	First Pathologic Diagnosis Biospecimen Acquisition Method Type	Mutation Count	Oncotree Code	Overall Survival Status	Primary Tumor Site	Sample Class	Number of Samples Per Patient	Sample Type	Sex	Somatic Status	TMB (nonsynonymous)	Patient's Vital Status
+es_dfarber_broad_2014	01-P034	01-P034	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	Diagnosis	98	ES	NA	NA	Tumor	1	NA	Male	Matched	3.3	NA
+es_dfarber_broad_2014	01-P1216	01-P1216	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	152	ES	NA	NA	Tumor	1	NA	Female	Matched	5.033333333	NA
+es_dfarber_broad_2014	01-P131	01-P131	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	75	ES	NA	NA	Tumor	1	NA	Female	Matched	2.533333333	NA
+es_dfarber_broad_2014	01-P459	01-P459	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	73	ES	NA	NA	Tumor	1	NA	Male	Matched	2.433333333	NA
+es_dfarber_broad_2014	01-P8014	01-P8014	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	84	ES	NA	NA	Tumor	1	NA	Female	Matched	2.8	NA
+es_dfarber_broad_2014	02-P170	02-P170	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	82	ES	NA	NA	Tumor	1	NA	Male	Matched	2.766666667	NA
+es_dfarber_broad_2014	03-P1004	03-P1004	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	79	ES	NA	NA	Tumor	1	NA	Female	Matched	2.566666667	NA
+es_dfarber_broad_2014	03-P152	03-P152	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	26	ES	NA	NA	Tumor	1	NA	Male	Matched	1.566666667	NA
+es_dfarber_broad_2014	05-P103	05-P103	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	5	ES	NA	NA	Tumor	1	NA	Male	Matched	0.266666667	NA
+es_dfarber_broad_2014	05-P8014	05-P8014	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	98	ES	NA	NA	Tumor	1	NA	Female	Matched	3.233333333	NA
+es_dfarber_broad_2014	05-P8068	05-P8068	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	92	ES	NA	NA	Tumor	1	NA	Female	Matched	3.066666667	NA
+es_dfarber_broad_2014	06-P036	06-P036	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	174	ES	NA	NA	Tumor	1	NA	Male	Matched	5.733333333	NA
+es_dfarber_broad_2014	06-P2007	06-P2007	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	77	ES	NA	NA	Tumor	1	NA	Female	Matched	2.566666667	NA
+es_dfarber_broad_2014	07-P075	07-P075	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	92	ES	NA	NA	Tumor	1	NA	Male	Matched	3.033333333	NA
+es_dfarber_broad_2014	07-P1079	07-P1079	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	99	ES	NA	NA	Tumor	1	NA	Male	Matched	3.333333333	NA
+es_dfarber_broad_2014	07-P8041	07-P8041	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	93	ES	NA	NA	Tumor	1	NA	Female	Matched	3.133333333	NA
+es_dfarber_broad_2014	08-P054	08-P054	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	103	ES	NA	NA	Tumor	1	NA	Male	Matched	3.433333333	NA
+es_dfarber_broad_2014	08-P1004	08-P1004	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	141	ES	NA	NA	Tumor	1	NA	Male	Matched	4.7	NA
+es_dfarber_broad_2014	08-P1177	08-P1177	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	76	ES	NA	NA	Tumor	1	NA	Male	Matched	2.533333333	NA
+es_dfarber_broad_2014	08-P462	08-P462	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	68	ES	NA	NA	Tumor	1	NA	Female	Matched	2.266666667	NA
+es_dfarber_broad_2014	08-P8005	08-P8005	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	97	ES	NA	NA	Tumor	1	NA	Male	Matched	3.2	NA
+es_dfarber_broad_2014	10-P083	10-P083	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	88	ES	NA	NA	Tumor	1	NA	Male	Matched	2.933333333	NA
+es_dfarber_broad_2014	10-P1058	10-P1058	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	157	ES	NA	NA	Tumor	1	NA	Female	Matched	5.233333333	NA
+es_dfarber_broad_2014	10-P4110	10-P4110	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	71	ES	NA	NA	Tumor	1	NA	Female	Matched	2.366666667	NA
+es_dfarber_broad_2014	10-P8045	10-P8045	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	79	ES	NA	NA	Tumor	1	NA	Male	Matched	2.633333333	NA
+es_dfarber_broad_2014	11-P048	11-P048	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	NA	ES	NA	NA	Tumor	1	NA	Female	Matched	NA	NA
+es_dfarber_broad_2014	11-P8004	11-P8004	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	85	ES	NA	NA	Tumor	1	NA	Female	Matched	2.8	NA
+es_dfarber_broad_2014	12-P2194	12-P2194	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	86	ES	NA	NA	Tumor	1	NA	Female	Matched	2.866666667	NA
+es_dfarber_broad_2014	12-P279	12-P279	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	90	ES	NA	NA	Tumor	1	NA	Male	Matched	3	NA
+es_dfarber_broad_2014	12-P4072	12-P4072	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	75	ES	NA	NA	Tumor	1	NA	Male	Matched	2.466666667	NA
+es_dfarber_broad_2014	12-P412	12-P412	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	85	ES	NA	NA	Tumor	1	NA	Female	Matched	2.833333333	NA
+es_dfarber_broad_2014	12-P616	12-P616	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	110	ES	NA	NA	Tumor	1	NA	Female	Matched	3.666666667	NA
+es_dfarber_broad_2014	12-P8001	12-P8001	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	75	ES	NA	NA	Tumor	1	NA	Female	Matched	2.5	NA
+es_dfarber_broad_2014	A673	A673	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	137	ES	NA	NA	Cell line	1	NA	Female	Unmatched	4.5	NA
+es_dfarber_broad_2014	Cado-ES1	Cado-ES1	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	276	ES	NA	NA	Cell line	1	NA	Female	Unmatched	9.2	NA
+es_dfarber_broad_2014	CHEWS001	CHEWS001	11	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	NA	248	ES	NA	Iliac crest	Tumor	1	NA	Male	Matched	8.2	NA
+es_dfarber_broad_2014	CHEWS002	CHEWS002	10	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	180	ES	NA	Pelvis	Tumor	1	NA	Male	Matched	5.966666667	NA
+es_dfarber_broad_2014	CHEWS003	CHEWS003	17	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	73	ES	NA	Pelvis	Tumor	1	NA	Female	Matched	2.433333333	NA
+es_dfarber_broad_2014	CHEWS004	CHEWS004	15	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	105	ES	NA	Shoulder	Tumor	1	NA	Male	Matched	3.466666667	NA
+es_dfarber_broad_2014	CHEWS005	CHEWS005	20	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	76	ES	NA	Tibia	Tumor	1	NA	Male	Matched	2.533333333	NA
+es_dfarber_broad_2014	CHEWS006	CHEWS006	19	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	75	ES	NA	Tibia	Tumor	1	NA	Male	Matched	2.466666667	NA
+es_dfarber_broad_2014	CHEWS007	CHEWS007	8	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	78	ES	NA	Femur	Tumor	1	NA	Female	Matched	2.5	NA
+es_dfarber_broad_2014	CHEWS008	CHEWS008	0.3	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	179	ES	NA	Face	Tumor	1	NA	Male	Matched	5.933333333	NA
+es_dfarber_broad_2014	CHEWS009	CHEWS009	5	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	75	ES	NA	Pelvis	Tumor	1	NA	Female	Matched	2.5	NA
+es_dfarber_broad_2014	CHEWS010	CHEWS010	5	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	100	ES	NA	Scalp	Tumor	1	NA	Female	Matched	3.366666667	NA
+es_dfarber_broad_2014	CHEWS011	CHEWS011	7	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	91	ES	NA	Clavicle	Tumor	1	NA	Female	Matched	3.033333333	NA
+es_dfarber_broad_2014	CHEWS012	CHEWS012	21	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	93	ES	NA	Neck	Tumor	1	NA	Female	Matched	3.1	NA
+es_dfarber_broad_2014	CHEWS013	CHEWS013	17	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	72	ES	NA	Tibia	Tumor	1	NA	Female	Matched	2.366666667	NA
+es_dfarber_broad_2014	CHEWS014	CHEWS014	9	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	75	ES	NA	Tibia	Tumor	1	NA	Male	Matched	2.5	NA
+es_dfarber_broad_2014	CHEWS015	CHEWS015	15	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Unkown	Diagnosis	69	ES	NA	Pelvis	Tumor	1	NA	Male	Matched	2.266666667	NA
+es_dfarber_broad_2014	CHEWS016	CHEWS016	16	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	NA	ES	NA	Pelvis	Tumor	1	NA	Male	Matched	NA	NA
+es_dfarber_broad_2014	CHEWS017	CHEWS017	13	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	70	ES	NA	Rib	Tumor	1	NA	Male	Matched	2.366666667	NA
+es_dfarber_broad_2014	CHEWS018	CHEWS018	13	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	71	ES	NA	Fibula	Tumor	1	NA	Male	Matched	2.366666667	NA
+es_dfarber_broad_2014	CHEWS019	CHEWS019	14	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	92	ES	NA	Thigh	Tumor	1	NA	Male	Matched	3.066666667	NA
+es_dfarber_broad_2014	CHEWS020	CHEWS020	8	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	75	ES	NA	Thorax	Tumor	1	NA	Female	Matched	2.5	NA
+es_dfarber_broad_2014	CHEWS021	CHEWS021	16	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	65	ES	NA	Fibula	Tumor	1	NA	Male	Matched	2.166666667	NA
+es_dfarber_broad_2014	CHEWS023	CHEWS023	12	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	74	ES	NA	Tibia	Tumor	1	NA	Female	Matched	2.5	NA
+es_dfarber_broad_2014	CHEWS024	CHEWS024	16	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	160	ES	NA	Chest wall	Tumor	1	NA	Female	Matched	5.366666667	NA
+es_dfarber_broad_2014	CHEWS025	CHEWS025	6	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	79	ES	NA	Paraspinal	Tumor	1	NA	Female	Matched	2.6	NA
+es_dfarber_broad_2014	CHEWS026	CHEWS026	4	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	88	ES	NA	Fibula	Tumor	1	NA	Female	Matched	2.933333333	NA
+es_dfarber_broad_2014	CHEWS027	CHEWS027	2	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	194	ES	NA	Femur	Tumor	1	NA	Female	Matched	6.466666667	NA
+es_dfarber_broad_2014	CHEWS028	CHEWS028	18	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	73	ES	NA	Parasacral	Tumor	1	NA	Male	Matched	2.4	NA
+es_dfarber_broad_2014	CHEWS029	CHEWS029	17	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	72	ES	NA	Chest wall	Tumor	1	NA	Male	Matched	2.333333333	NA
+es_dfarber_broad_2014	CHEWS030	CHEWS030	13	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	79	ES	NA	Chest wall	Tumor	1	NA	Female	Matched	2.633333333	NA
+es_dfarber_broad_2014	CHEWS031	CHEWS031	4	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Unkown	Diagnosis	312	ES	NA	Buttock	Tumor	1	NA	Male	Matched	10.43333333	NA
+es_dfarber_broad_2014	CHEWS032	CHEWS032	10	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	75	ES	NA	Iliac crest	Tumor	1	NA	Male	Matched	2.5	NA
+es_dfarber_broad_2014	CHEWS033	CHEWS033	13	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	76	ES	NA	Clavicle	Tumor	1	NA	Female	Matched	2.533333333	NA
+es_dfarber_broad_2014	CHEWS034	CHEWS034	17	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Unkown	Diagnosis	94	ES	NA	Femur	Tumor	1	NA	Male	Matched	3.1	NA
+es_dfarber_broad_2014	CHEWS035	CHEWS035	6	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NO	Diagnosis	67	ES	NA	Tibia	Tumor	1	NA	Female	Matched	2.266666667	NA
+es_dfarber_broad_2014	CHEWS036	CHEWS036	17	Bone Cancer	Ewing Sarcoma	NA	NA	NA	Metastatic	Diagnosis	67	ES	NA	Humerus	Tumor	1	NA	Male	Matched	2.2	NA
+es_dfarber_broad_2014	CHLA-258	CHLA-258	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	189	ES	NA	NA	Cell line	1	NA	Female	Unmatched	6.266666667	NA
+es_dfarber_broad_2014	EW8	EW8	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	230	ES	NA	NA	Cell line	1	NA	Male	Unmatched	7.633333333	NA
+es_dfarber_broad_2014	EWS502	EWS502	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	196	ES	NA	NA	Cell line	1	NA	Female	Unmatched	6.533333333	NA
+es_dfarber_broad_2014	EWS834	EWS834	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	108	ES	NA	NA	Cell line	1	NA	Female	Unmatched	3.6	NA
+es_dfarber_broad_2014	RDES	RDES	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	126	ES	NA	NA	Cell line	1	NA	Male	Unmatched	4.2	NA
+es_dfarber_broad_2014	SJDES001	SJDES001-R	4	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	Lung and BM	Autopsy	43	ES	1:DECEASED	Femur	Tumor	1	Metastasis	Male	Matched	3.4	DOD
+es_dfarber_broad_2014	SJDES002	SJDES002-R	13	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	Lungs	NA	7	ES	1:DECEASED	Talus	Tumor	1	Metastasis	Male	Matched	0.433333333	DOD
+es_dfarber_broad_2014	SJDES003	SJDES003-R	0.4	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	BM	NA	19	ES	0:LIVING	Femur	Tumor	1	Metastasis	Male	Matched	1.1	NED
+es_dfarber_broad_2014	SJDES004	SJDES004	15	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 7-7	Lung	Diagnosis	5	ES	1:DECEASED	Pubic bone	Tumor	2	Primary	Female	Matched	0.3	DOD
+es_dfarber_broad_2014	SJDES004	SJDES004-R	15	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	NA	Lung	NA	26	ES	1:DECEASED	Pubic bone	Tumor	2	Metastasis	Male	Matched	1.733333333	DOD
+es_dfarber_broad_2014	SJDES005	SJDES005	13	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 2	Lung	Diagnosis	9	ES	0:LIVING	Gluteus muscle	Tumor	1	Primary	Male	Matched	0.5	NED
+es_dfarber_broad_2014	SJDES006	SJDES006	8	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	Lung, Liver, BM	Diagnosis	51	ES	1:DECEASED	Rib	Tumor	1	Primary	Female	Matched	2.5	DOD
+es_dfarber_broad_2014	SJDES007	SJDES007-R1	17	Bone Cancer	Ewing Sarcoma	GD/IT	White/Latin America	EWS-FLI1	Lung, Bone and BM	NA	43	ES	1:DECEASED	Scapula	Tumor	2	Primary	Male	Matched	2.833333333	DOD
+es_dfarber_broad_2014	SJDES007	SJDES007-R2	17	Bone Cancer	Ewing Sarcoma	GD/IT	White/Latin America	EWS-FLI1	Lung, Bone and BM	NA	34	ES	1:DECEASED	Scapula	Tumor	2	Primary	Male	Matched	2.266666667	DOD
+es_dfarber_broad_2014	SJDES008	SJDES008	0.8	Bone Cancer	Ewing Sarcoma	VAC/IE	Black/Sub-Saharan Africa	EWS-FLI1 type 2	NO	Diagnosis	5	ES	0:LIVING	Gluteus muscle	Tumor	1	Primary	Male	Matched	0.266666667	NED
+es_dfarber_broad_2014	SJDES009	SJDES009	5	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 2	NO	Diagnosis	3	ES	0:LIVING	Pubic bone	Tumor	1	Primary	Male	Matched	0.233333333	NED
+es_dfarber_broad_2014	SJDES010	SJDES010	9	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-ERG 7-6	NO	Diagnosis	4	ES	0:LIVING	Chest wall	Tumor	1	Primary	Male	Matched	0.333333333	NED
+es_dfarber_broad_2014	SJDES011	SJDES011-R	12	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 2	NO	Autopsy	40	ES	1:DECEASED	Iliac bone	Tumor	1	Metastasis	Male	Matched	2.366666667	DOD
+es_dfarber_broad_2014	SJDES012	SJDES012	18	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 2	NO	Diagnosis	6	ES	0:LIVING	Vertebral body	Tumor	1	Primary	Male	Matched	0.366666667	NED
+es_dfarber_broad_2014	SJDES013	SJDES013	11	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 10-5	Lung	Diagnosis	8	ES	1:DECEASED	Vertebral body + rib	Tumor	1	Primary	Male	Matched	0.5	DOD
+es_dfarber_broad_2014	SJDES014	SJDES014-R1	0.5	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 2	NO	NA	16	ES	1:DECEASED	Chest wall	Tumor	2	Primary	Female	Matched	1.033333333	DOD
+es_dfarber_broad_2014	SJDES014	SJDES014-R2	0.5	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 2	NO	NA	9	ES	1:DECEASED	Chest wall	Tumor	2	Primary	Female	Matched	0.6	DOD
+es_dfarber_broad_2014	SJDES015	SJDES015	8	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-ERG 7-6	NO	Diagnosis	6	ES	1:DECEASED	Femur	Tumor	1	Primary	Female	Matched	0.333333333	DOD
+es_dfarber_broad_2014	SJDES016	SJDES016	18	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 10-5	Lung	Diagnosis	11	ES	1:DECEASED	Vertebral bodies	Tumor	2	Primary	Female	Matched	0.666666667	DOD
+es_dfarber_broad_2014	SJDES016	SJDES016-R	18	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	NA	Lung	NA	13	ES	1:DECEASED	Vertebral bodies	Tumor	2	Metastasis	Female	Matched	0.866666667	DOD
+es_dfarber_broad_2014	SJDES017	SJDES017	17	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI type 1	NO	Diagnosis	10	ES	0:LIVING	Iliac bone	Tumor	1	Primary	Female	Matched	0.5	NED
+es_dfarber_broad_2014	SJDES018	SJDES018-R	1.5	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-ERG 7-9	NO	NA	43	ES	1:DECEASED	Chest wall	Tumor	1	Primary	Female	Matched	3.333333333	DOD
+es_dfarber_broad_2014	SJDES019	SJDES019	5	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Latin America	EWS-FLI1 type 2	NO	Diagnosis	8	ES	0:LIVING	Chest wall	Tumor	1	Primary	Female	Matched	0.4	NED
+es_dfarber_broad_2014	SJDES020	SJDES020	11	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	NO	Diagnosis	10	ES	0:LIVING	Sacrum	Tumor	1	Primary	Male	Matched	0.633333333	NED
+es_dfarber_broad_2014	SJDES021	SJDES021	10	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	NO	Diagnosis	11	ES	0:LIVING	Fibula	Tumor	1	Primary	Male	Matched	0.5	NED
+es_dfarber_broad_2014	SJDES022	SJDES022-R	10	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-FLI1 type 1	Lung	NA	16	ES	0:LIVING	Mediastinum and Lungs	Tumor	1	Metastasis	Male	Matched	0.933333333	NED
+es_dfarber_broad_2014	SJDES028	SJDES028	12	Bone Cancer	Ewing Sarcoma	VAC/IE	White/North Africa	EWS-FLI1 type 1	NO	Diagnosis	9	ES	0:LIVING	Iliac bone	Tumor	1	Primary	Male	Matched	0.533333333	NED
+es_dfarber_broad_2014	SJDES029	SJDES029	13	Bone Cancer	Ewing Sarcoma	VAC/IE	White/Europe	EWS-ERG 7-9	NO	Diagnosis	8	ES	0:LIVING	Chest wall	Tumor	1	Primary	Female	Matched	0.433333333	NED
+es_dfarber_broad_2014	SKNEP1	SKNEP1	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	117	ES	NA	NA	Cell line	1	NA	Female	Unmatched	3.933333333	NA
+es_dfarber_broad_2014	TC32	TC32	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	132	ES	NA	NA	Cell line	1	NA	Female	Unmatched	4.4	NA
+es_dfarber_broad_2014	TC71	TC71	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	223	ES	NA	NA	Cell line	1	NA	Male	Unmatched	7.433333333	NA
+es_dfarber_broad_2014	TTC466	TTC466	NA	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA	184	ES	NA	NA	Cell line	1	NA	Female	Unmatched	7.6	NA

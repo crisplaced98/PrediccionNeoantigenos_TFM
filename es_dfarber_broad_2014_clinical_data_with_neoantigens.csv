@@ -1,0 +1,108 @@
+Study ID,Patient ID,Sample ID,Diagnosis Age,Cancer Type,Cancer Type Detailed,Chemo First Line,Ethnicity Category,Fusion By RNA PCR,Metastasis,First Pathologic Diagnosis Biospecimen Acquisition Method Type,Mutation Count,Oncotree Code,Overall Survival Status,Primary Tumor Site,Sample Class,Number of Samples Per Patient,Sample Type,Sex,Somatic Status,TMB (nonsynonymous),Patient's Vital Status,Neoantigen_SB_Count,Neoantigen_WB_Count
+es_dfarber_broad_2014,01-P034,01-P034,,Bone Cancer,Ewing Sarcoma,,,,,Diagnosis,98.0,ES,,,Tumor,1,,Male,Matched,3.3,,26.0,29.0
+es_dfarber_broad_2014,01-P1216,01-P1216,,Bone Cancer,Ewing Sarcoma,,,,,,152.0,ES,,,Tumor,1,,Female,Matched,5.033333333,,28.0,37.0
+es_dfarber_broad_2014,01-P131,01-P131,,Bone Cancer,Ewing Sarcoma,,,,,,75.0,ES,,,Tumor,1,,Female,Matched,2.533333333,,15.0,14.0
+es_dfarber_broad_2014,01-P459,01-P459,,Bone Cancer,Ewing Sarcoma,,,,,,73.0,ES,,,Tumor,1,,Male,Matched,2.433333333,,16.0,25.0
+es_dfarber_broad_2014,01-P8014,01-P8014,,Bone Cancer,Ewing Sarcoma,,,,,,84.0,ES,,,Tumor,1,,Female,Matched,2.8,,13.0,17.0
+es_dfarber_broad_2014,02-P170,02-P170,,Bone Cancer,Ewing Sarcoma,,,,,,82.0,ES,,,Tumor,1,,Male,Matched,2.766666667,,14.0,17.0
+es_dfarber_broad_2014,03-P1004,03-P1004,,Bone Cancer,Ewing Sarcoma,,,,,,79.0,ES,,,Tumor,1,,Female,Matched,2.566666667,,14.0,23.0
+es_dfarber_broad_2014,03-P152,03-P152,,Bone Cancer,Ewing Sarcoma,,,,,,26.0,ES,,,Tumor,1,,Male,Matched,1.566666667,,5.0,4.0
+es_dfarber_broad_2014,05-P103,05-P103,,Bone Cancer,Ewing Sarcoma,,,,,,5.0,ES,,,Tumor,1,,Male,Matched,0.266666667,,0.0,2.0
+es_dfarber_broad_2014,05-P8014,05-P8014,,Bone Cancer,Ewing Sarcoma,,,,,,98.0,ES,,,Tumor,1,,Female,Matched,3.233333333,,19.0,49.0
+es_dfarber_broad_2014,05-P8068,05-P8068,,Bone Cancer,Ewing Sarcoma,,,,,,92.0,ES,,,Tumor,1,,Female,Matched,3.066666667,,19.0,39.0
+es_dfarber_broad_2014,06-P036,06-P036,,Bone Cancer,Ewing Sarcoma,,,,,,174.0,ES,,,Tumor,1,,Male,Matched,5.733333333,,31.0,46.0
+es_dfarber_broad_2014,06-P2007,06-P2007,,Bone Cancer,Ewing Sarcoma,,,,,,77.0,ES,,,Tumor,1,,Female,Matched,2.566666667,,13.0,15.0
+es_dfarber_broad_2014,07-P075,07-P075,,Bone Cancer,Ewing Sarcoma,,,,,,92.0,ES,,,Tumor,1,,Male,Matched,3.033333333,,26.0,32.0
+es_dfarber_broad_2014,07-P1079,07-P1079,,Bone Cancer,Ewing Sarcoma,,,,,,99.0,ES,,,Tumor,1,,Male,Matched,3.333333333,,17.0,27.0
+es_dfarber_broad_2014,07-P8041,07-P8041,,Bone Cancer,Ewing Sarcoma,,,,,,93.0,ES,,,Tumor,1,,Female,Matched,3.133333333,,27.0,23.0
+es_dfarber_broad_2014,08-P054,08-P054,,Bone Cancer,Ewing Sarcoma,,,,,,103.0,ES,,,Tumor,1,,Male,Matched,3.433333333,,21.0,39.0
+es_dfarber_broad_2014,08-P1004,08-P1004,,Bone Cancer,Ewing Sarcoma,,,,,,141.0,ES,,,Tumor,1,,Male,Matched,4.7,,21.0,45.0
+es_dfarber_broad_2014,08-P1177,08-P1177,,Bone Cancer,Ewing Sarcoma,,,,,,76.0,ES,,,Tumor,1,,Male,Matched,2.533333333,,14.0,31.0
+es_dfarber_broad_2014,08-P462,08-P462,,Bone Cancer,Ewing Sarcoma,,,,,,68.0,ES,,,Tumor,1,,Female,Matched,2.266666667,,14.0,20.0
+es_dfarber_broad_2014,08-P8005,08-P8005,,Bone Cancer,Ewing Sarcoma,,,,,,97.0,ES,,,Tumor,1,,Male,Matched,3.2,,15.0,23.0
+es_dfarber_broad_2014,10-P083,10-P083,,Bone Cancer,Ewing Sarcoma,,,,,,88.0,ES,,,Tumor,1,,Male,Matched,2.933333333,,15.0,26.0
+es_dfarber_broad_2014,10-P1058,10-P1058,,Bone Cancer,Ewing Sarcoma,,,,,,157.0,ES,,,Tumor,1,,Female,Matched,5.233333333,,32.0,48.0
+es_dfarber_broad_2014,10-P4110,10-P4110,,Bone Cancer,Ewing Sarcoma,,,,,,71.0,ES,,,Tumor,1,,Female,Matched,2.366666667,,15.0,21.0
+es_dfarber_broad_2014,10-P8045,10-P8045,,Bone Cancer,Ewing Sarcoma,,,,,,79.0,ES,,,Tumor,1,,Male,Matched,2.633333333,,15.0,26.0
+es_dfarber_broad_2014,11-P048,11-P048,,Bone Cancer,Ewing Sarcoma,,,,,,,ES,,,Tumor,1,,Female,Matched,,,0.0,0.0
+es_dfarber_broad_2014,11-P8004,11-P8004,,Bone Cancer,Ewing Sarcoma,,,,,,85.0,ES,,,Tumor,1,,Female,Matched,2.8,,23.0,23.0
+es_dfarber_broad_2014,12-P2194,12-P2194,,Bone Cancer,Ewing Sarcoma,,,,,,86.0,ES,,,Tumor,1,,Female,Matched,2.866666667,,15.0,24.0
+es_dfarber_broad_2014,12-P279,12-P279,,Bone Cancer,Ewing Sarcoma,,,,,,90.0,ES,,,Tumor,1,,Male,Matched,3.0,,10.0,24.0
+es_dfarber_broad_2014,12-P4072,12-P4072,,Bone Cancer,Ewing Sarcoma,,,,,,75.0,ES,,,Tumor,1,,Male,Matched,2.466666667,,13.0,23.0
+es_dfarber_broad_2014,12-P412,12-P412,,Bone Cancer,Ewing Sarcoma,,,,,,85.0,ES,,,Tumor,1,,Female,Matched,2.833333333,,17.0,27.0
+es_dfarber_broad_2014,12-P616,12-P616,,Bone Cancer,Ewing Sarcoma,,,,,,110.0,ES,,,Tumor,1,,Female,Matched,3.666666667,,13.0,35.0
+es_dfarber_broad_2014,12-P8001,12-P8001,,Bone Cancer,Ewing Sarcoma,,,,,,75.0,ES,,,Tumor,1,,Female,Matched,2.5,,18.0,32.0
+es_dfarber_broad_2014,A673,A673,,Bone Cancer,Ewing Sarcoma,,,,,,137.0,ES,,,Cell line,1,,Female,Unmatched,4.5,,0.0,0.0
+es_dfarber_broad_2014,Cado-ES1,Cado-ES1,,Bone Cancer,Ewing Sarcoma,,,,,,276.0,ES,,,Cell line,1,,Female,Unmatched,9.2,,0.0,0.0
+es_dfarber_broad_2014,CHEWS001,CHEWS001,11.0,Bone Cancer,Ewing Sarcoma,,,,NO,,248.0,ES,,Iliac crest,Tumor,1,,Male,Matched,8.2,,45.0,60.0
+es_dfarber_broad_2014,CHEWS002,CHEWS002,10.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,180.0,ES,,Pelvis,Tumor,1,,Male,Matched,5.966666667,,27.0,53.0
+es_dfarber_broad_2014,CHEWS003,CHEWS003,17.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,73.0,ES,,Pelvis,Tumor,1,,Female,Matched,2.433333333,,10.0,22.0
+es_dfarber_broad_2014,CHEWS004,CHEWS004,15.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,105.0,ES,,Shoulder,Tumor,1,,Male,Matched,3.466666667,,22.0,32.0
+es_dfarber_broad_2014,CHEWS005,CHEWS005,20.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,76.0,ES,,Tibia,Tumor,1,,Male,Matched,2.533333333,,13.0,24.0
+es_dfarber_broad_2014,CHEWS006,CHEWS006,19.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,75.0,ES,,Tibia,Tumor,1,,Male,Matched,2.466666667,,11.0,13.0
+es_dfarber_broad_2014,CHEWS007,CHEWS007,8.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,78.0,ES,,Femur,Tumor,1,,Female,Matched,2.5,,17.0,24.0
+es_dfarber_broad_2014,CHEWS008,CHEWS008,0.3,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,179.0,ES,,Face,Tumor,1,,Male,Matched,5.933333333,,48.0,60.0
+es_dfarber_broad_2014,CHEWS009,CHEWS009,5.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,75.0,ES,,Pelvis,Tumor,1,,Female,Matched,2.5,,11.0,27.0
+es_dfarber_broad_2014,CHEWS010,CHEWS010,5.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,100.0,ES,,Scalp,Tumor,1,,Female,Matched,3.366666667,,16.0,33.0
+es_dfarber_broad_2014,CHEWS011,CHEWS011,7.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,91.0,ES,,Clavicle,Tumor,1,,Female,Matched,3.033333333,,18.0,28.0
+es_dfarber_broad_2014,CHEWS012,CHEWS012,21.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,93.0,ES,,Neck,Tumor,1,,Female,Matched,3.1,,21.0,28.0
+es_dfarber_broad_2014,CHEWS013,CHEWS013,17.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,72.0,ES,,Tibia,Tumor,1,,Female,Matched,2.366666667,,15.0,13.0
+es_dfarber_broad_2014,CHEWS014,CHEWS014,9.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,75.0,ES,,Tibia,Tumor,1,,Male,Matched,2.5,,7.0,21.0
+es_dfarber_broad_2014,CHEWS015,CHEWS015,15.0,Bone Cancer,Ewing Sarcoma,,,,Unkown,Diagnosis,69.0,ES,,Pelvis,Tumor,1,,Male,Matched,2.266666667,,19.0,17.0
+es_dfarber_broad_2014,CHEWS016,CHEWS016,16.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,,ES,,Pelvis,Tumor,1,,Male,Matched,,,0.0,0.0
+es_dfarber_broad_2014,CHEWS017,CHEWS017,13.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,70.0,ES,,Rib,Tumor,1,,Male,Matched,2.366666667,,18.0,18.0
+es_dfarber_broad_2014,CHEWS018,CHEWS018,13.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,71.0,ES,,Fibula,Tumor,1,,Male,Matched,2.366666667,,21.0,16.0
+es_dfarber_broad_2014,CHEWS019,CHEWS019,14.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,92.0,ES,,Thigh,Tumor,1,,Male,Matched,3.066666667,,16.0,23.0
+es_dfarber_broad_2014,CHEWS020,CHEWS020,8.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,75.0,ES,,Thorax,Tumor,1,,Female,Matched,2.5,,13.0,31.0
+es_dfarber_broad_2014,CHEWS021,CHEWS021,16.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,65.0,ES,,Fibula,Tumor,1,,Male,Matched,2.166666667,,18.0,15.0
+es_dfarber_broad_2014,CHEWS023,CHEWS023,12.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,74.0,ES,,Tibia,Tumor,1,,Female,Matched,2.5,,9.0,23.0
+es_dfarber_broad_2014,CHEWS024,CHEWS024,16.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,160.0,ES,,Chest wall,Tumor,1,,Female,Matched,5.366666667,,26.0,41.0
+es_dfarber_broad_2014,CHEWS025,CHEWS025,6.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,79.0,ES,,Paraspinal,Tumor,1,,Female,Matched,2.6,,16.0,22.0
+es_dfarber_broad_2014,CHEWS026,CHEWS026,4.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,88.0,ES,,Fibula,Tumor,1,,Female,Matched,2.933333333,,15.0,19.0
+es_dfarber_broad_2014,CHEWS027,CHEWS027,2.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,194.0,ES,,Femur,Tumor,1,,Female,Matched,6.466666667,,30.0,54.0
+es_dfarber_broad_2014,CHEWS028,CHEWS028,18.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,73.0,ES,,Parasacral,Tumor,1,,Male,Matched,2.4,,10.0,29.0
+es_dfarber_broad_2014,CHEWS029,CHEWS029,17.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,72.0,ES,,Chest wall,Tumor,1,,Male,Matched,2.333333333,,14.0,15.0
+es_dfarber_broad_2014,CHEWS030,CHEWS030,13.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,79.0,ES,,Chest wall,Tumor,1,,Female,Matched,2.633333333,,19.0,25.0
+es_dfarber_broad_2014,CHEWS031,CHEWS031,4.0,Bone Cancer,Ewing Sarcoma,,,,Unkown,Diagnosis,312.0,ES,,Buttock,Tumor,1,,Male,Matched,10.43333333,,46.0,110.0
+es_dfarber_broad_2014,CHEWS032,CHEWS032,10.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,75.0,ES,,Iliac crest,Tumor,1,,Male,Matched,2.5,,15.0,27.0
+es_dfarber_broad_2014,CHEWS033,CHEWS033,13.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,76.0,ES,,Clavicle,Tumor,1,,Female,Matched,2.533333333,,12.0,23.0
+es_dfarber_broad_2014,CHEWS034,CHEWS034,17.0,Bone Cancer,Ewing Sarcoma,,,,Unkown,Diagnosis,94.0,ES,,Femur,Tumor,1,,Male,Matched,3.1,,10.0,33.0
+es_dfarber_broad_2014,CHEWS035,CHEWS035,6.0,Bone Cancer,Ewing Sarcoma,,,,NO,Diagnosis,67.0,ES,,Tibia,Tumor,1,,Female,Matched,2.266666667,,16.0,19.0
+es_dfarber_broad_2014,CHEWS036,CHEWS036,17.0,Bone Cancer,Ewing Sarcoma,,,,Metastatic,Diagnosis,67.0,ES,,Humerus,Tumor,1,,Male,Matched,2.2,,9.0,15.0
+es_dfarber_broad_2014,CHLA-258,CHLA-258,,Bone Cancer,Ewing Sarcoma,,,,,,189.0,ES,,,Cell line,1,,Female,Unmatched,6.266666667,,0.0,0.0
+es_dfarber_broad_2014,EW8,EW8,,Bone Cancer,Ewing Sarcoma,,,,,,230.0,ES,,,Cell line,1,,Male,Unmatched,7.633333333,,0.0,0.0
+es_dfarber_broad_2014,EWS502,EWS502,,Bone Cancer,Ewing Sarcoma,,,,,,196.0,ES,,,Cell line,1,,Female,Unmatched,6.533333333,,0.0,0.0
+es_dfarber_broad_2014,EWS834,EWS834,,Bone Cancer,Ewing Sarcoma,,,,,,108.0,ES,,,Cell line,1,,Female,Unmatched,3.6,,0.0,0.0
+es_dfarber_broad_2014,RDES,RDES,,Bone Cancer,Ewing Sarcoma,,,,,,126.0,ES,,,Cell line,1,,Male,Unmatched,4.2,,0.0,0.0
+es_dfarber_broad_2014,SJDES001,SJDES001-R,4.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,Lung and BM,Autopsy,43.0,ES,1:DECEASED,Femur,Tumor,1,Metastasis,Male,Matched,3.4,DOD,4.0,9.0
+es_dfarber_broad_2014,SJDES002,SJDES002-R,13.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,Lungs,,7.0,ES,1:DECEASED,Talus,Tumor,1,Metastasis,Male,Matched,0.433333333,DOD,1.0,1.0
+es_dfarber_broad_2014,SJDES003,SJDES003-R,0.4,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,BM,,19.0,ES,0:LIVING,Femur,Tumor,1,Metastasis,Male,Matched,1.1,NED,6.0,2.0
+es_dfarber_broad_2014,SJDES004,SJDES004,15.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 7-7,Lung,Diagnosis,5.0,ES,1:DECEASED,Pubic bone,Tumor,2,Primary,Female,Matched,0.3,DOD,3.0,10.0
+es_dfarber_broad_2014,SJDES004,SJDES004-R,15.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,,Lung,,26.0,ES,1:DECEASED,Pubic bone,Tumor,2,Metastasis,Male,Matched,1.733333333,DOD,3.0,10.0
+es_dfarber_broad_2014,SJDES005,SJDES005,13.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 2,Lung,Diagnosis,9.0,ES,0:LIVING,Gluteus muscle,Tumor,1,Primary,Male,Matched,0.5,NED,2.0,1.0
+es_dfarber_broad_2014,SJDES006,SJDES006,8.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,"Lung, Liver, BM",Diagnosis,51.0,ES,1:DECEASED,Rib,Tumor,1,Primary,Female,Matched,2.5,DOD,6.0,10.0
+es_dfarber_broad_2014,SJDES007,SJDES007-R1,17.0,Bone Cancer,Ewing Sarcoma,GD/IT,White/Latin America,EWS-FLI1,"Lung, Bone and BM",,43.0,ES,1:DECEASED,Scapula,Tumor,2,Primary,Male,Matched,2.833333333,DOD,13.0,24.0
+es_dfarber_broad_2014,SJDES007,SJDES007-R2,17.0,Bone Cancer,Ewing Sarcoma,GD/IT,White/Latin America,EWS-FLI1,"Lung, Bone and BM",,34.0,ES,1:DECEASED,Scapula,Tumor,2,Primary,Male,Matched,2.266666667,DOD,13.0,24.0
+es_dfarber_broad_2014,SJDES008,SJDES008,0.8,Bone Cancer,Ewing Sarcoma,VAC/IE,Black/Sub-Saharan Africa,EWS-FLI1 type 2,NO,Diagnosis,5.0,ES,0:LIVING,Gluteus muscle,Tumor,1,Primary,Male,Matched,0.266666667,NED,0.0,0.0
+es_dfarber_broad_2014,SJDES009,SJDES009,5.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 2,NO,Diagnosis,3.0,ES,0:LIVING,Pubic bone,Tumor,1,Primary,Male,Matched,0.233333333,NED,0.0,2.0
+es_dfarber_broad_2014,SJDES010,SJDES010,9.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-ERG 7-6,NO,Diagnosis,4.0,ES,0:LIVING,Chest wall,Tumor,1,Primary,Male,Matched,0.333333333,NED,0.0,0.0
+es_dfarber_broad_2014,SJDES011,SJDES011-R,12.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 2,NO,Autopsy,40.0,ES,1:DECEASED,Iliac bone,Tumor,1,Metastasis,Male,Matched,2.366666667,DOD,3.0,7.0
+es_dfarber_broad_2014,SJDES012,SJDES012,18.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 2,NO,Diagnosis,6.0,ES,0:LIVING,Vertebral body,Tumor,1,Primary,Male,Matched,0.366666667,NED,0.0,1.0
+es_dfarber_broad_2014,SJDES013,SJDES013,11.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 10-5,Lung,Diagnosis,8.0,ES,1:DECEASED,Vertebral body + rib,Tumor,1,Primary,Male,Matched,0.5,DOD,1.0,4.0
+es_dfarber_broad_2014,SJDES014,SJDES014-R1,0.5,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 2,NO,,16.0,ES,1:DECEASED,Chest wall,Tumor,2,Primary,Female,Matched,1.033333333,DOD,1.0,7.0
+es_dfarber_broad_2014,SJDES014,SJDES014-R2,0.5,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 2,NO,,9.0,ES,1:DECEASED,Chest wall,Tumor,2,Primary,Female,Matched,0.6,DOD,1.0,7.0
+es_dfarber_broad_2014,SJDES015,SJDES015,8.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-ERG 7-6,NO,Diagnosis,6.0,ES,1:DECEASED,Femur,Tumor,1,Primary,Female,Matched,0.333333333,DOD,0.0,4.0
+es_dfarber_broad_2014,SJDES016,SJDES016,18.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 10-5,Lung,Diagnosis,11.0,ES,1:DECEASED,Vertebral bodies,Tumor,2,Primary,Female,Matched,0.666666667,DOD,5.0,8.0
+es_dfarber_broad_2014,SJDES016,SJDES016-R,18.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,,Lung,,13.0,ES,1:DECEASED,Vertebral bodies,Tumor,2,Metastasis,Female,Matched,0.866666667,DOD,5.0,8.0
+es_dfarber_broad_2014,SJDES017,SJDES017,17.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI type 1,NO,Diagnosis,10.0,ES,0:LIVING,Iliac bone,Tumor,1,Primary,Female,Matched,0.5,NED,2.0,2.0
+es_dfarber_broad_2014,SJDES018,SJDES018-R,1.5,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-ERG 7-9,NO,,43.0,ES,1:DECEASED,Chest wall,Tumor,1,Primary,Female,Matched,3.333333333,DOD,7.0,17.0
+es_dfarber_broad_2014,SJDES019,SJDES019,5.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Latin America,EWS-FLI1 type 2,NO,Diagnosis,8.0,ES,0:LIVING,Chest wall,Tumor,1,Primary,Female,Matched,0.4,NED,0.0,2.0
+es_dfarber_broad_2014,SJDES020,SJDES020,11.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,NO,Diagnosis,10.0,ES,0:LIVING,Sacrum,Tumor,1,Primary,Male,Matched,0.633333333,NED,4.0,3.0
+es_dfarber_broad_2014,SJDES021,SJDES021,10.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,NO,Diagnosis,11.0,ES,0:LIVING,Fibula,Tumor,1,Primary,Male,Matched,0.5,NED,1.0,5.0
+es_dfarber_broad_2014,SJDES022,SJDES022-R,10.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-FLI1 type 1,Lung,,16.0,ES,0:LIVING,Mediastinum and Lungs,Tumor,1,Metastasis,Male,Matched,0.933333333,NED,1.0,5.0
+es_dfarber_broad_2014,SJDES028,SJDES028,12.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/North Africa,EWS-FLI1 type 1,NO,Diagnosis,9.0,ES,0:LIVING,Iliac bone,Tumor,1,Primary,Male,Matched,0.533333333,NED,2.0,4.0
+es_dfarber_broad_2014,SJDES029,SJDES029,13.0,Bone Cancer,Ewing Sarcoma,VAC/IE,White/Europe,EWS-ERG 7-9,NO,Diagnosis,8.0,ES,0:LIVING,Chest wall,Tumor,1,Primary,Female,Matched,0.433333333,NED,0.0,1.0
+es_dfarber_broad_2014,SKNEP1,SKNEP1,,Bone Cancer,Ewing Sarcoma,,,,,,117.0,ES,,,Cell line,1,,Female,Unmatched,3.933333333,,0.0,0.0
+es_dfarber_broad_2014,TC32,TC32,,Bone Cancer,Ewing Sarcoma,,,,,,132.0,ES,,,Cell line,1,,Female,Unmatched,4.4,,0.0,0.0
+es_dfarber_broad_2014,TC71,TC71,,Bone Cancer,Ewing Sarcoma,,,,,,223.0,ES,,,Cell line,1,,Male,Unmatched,7.433333333,,0.0,0.0
+es_dfarber_broad_2014,TTC466,TTC466,,Bone Cancer,Ewing Sarcoma,,,,,,184.0,ES,,,Cell line,1,,Female,Unmatched,7.6,,0.0,0.0
