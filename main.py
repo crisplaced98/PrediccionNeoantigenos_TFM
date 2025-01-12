@@ -16,7 +16,7 @@ clinical_df = pd.read_csv('es_dfarber_broad_2014_clinical_data.tsv', sep='\t')
 
 # Filtrar solo las muestras que son tumores
 tumor_samples = clinical_df[clinical_df['Sample Class'] == 'Tumor']['Patient ID'].tolist()
-'''
+
 # Obtener las mutaciones del estudio
 muts = getInformation.get_mutations_cBioPortal("es_dfarber_broad_2014")
 
@@ -86,7 +86,7 @@ mutated_peptides_df = pd.DataFrame(valid_peptides)
 
 # Guardar los péptidos mutados en un archivo .csv
 mutated_peptides_df.to_csv("resultados/mutated_peptides.csv", index=False, sep=",")
-print("Péptidos mutados guardados en mutated_peptides.csv")'''
+print("Péptidos mutados guardados en mutated_peptides.csv")
 
 ######### Predecir neoanígenos y clasificarlos #########
 
