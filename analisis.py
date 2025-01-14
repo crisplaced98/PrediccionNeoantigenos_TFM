@@ -18,7 +18,7 @@ clinical_df = clinical_df[clinical_df['Sample Class'] == 'Tumor']
 # Obtener los datos clínicos de los pacientes únicos. Se quitan las muestras de los pacientes
 clinical_df = clinical_df.drop_duplicates(subset=['Patient ID'])
 
-# Eliminar columna númeor de muestras
+# Eliminar columna número de muestras
 clinical_df = clinical_df.drop(columns=['Number of Samples Per Patient'])
 
 # Guardar en .csv el archivo con el resumen de los datos clínicos
@@ -27,21 +27,47 @@ clinical_df.describe().to_csv('resultados/es_dfarber_broad_2014_clinical_data_su
 # Crear los intervalos de edad basados en la edad máxima
 clinical_df = getGraphics.createIntervalosEdad(clinical_df)
 
-#print(clinical_df["Age Interval"])
 
 ##### Ejecución de pruebas estadísticas para comprobar la normalidad de las variables numéricas  #########
 
 df = clinical_df.select_dtypes(include=['number']) # Seleccionar solo las columnas numéricas
 df = df.dropna() # Elimina filas con valores nulos
+
+custom_titles = {
+    'Diagnosis Age': 'Edad de diagnóstico',
+    'Mutation Count': 'Número de mutaciones',
+    'TMB (nonsynonymous)': 'TMB (no sinónimas)',
+    'Neoantigen_SB_Count': 'Número de neoantígenos fuertes',
+    'Neoantigen_WB_Count': 'Número de neoantígenos débiles',
+}
+
+# Generación de gráficos Q-Q para cada variable numérica
 for column in df.columns:
+    series = df[column] 
+    # crear el gráfico qqplot
+    title = custom_titles.get(column)
+    getGraphics.graficoqq(series, title)
+
+for idx, column in enumerate(df.columns, 1):
     print(f"\nPruebas para la columna: {column}") 
     series = df[column] 
     # Prueba de Shapiro-Wilk 
     stat, p = shapiro(series) 
-    print('Prueba de Shapiro-Wilk: Estadístico=%.3f, p=%.3f' % (stat, p)) 
+    print(f'Prueba de Shapiro-Wilk: Estadístico={stat}, p={p}') 
     # Prueba de Kolmogorov-Smirnov 
     stat, p = kstest(series, 'norm') 
-    print('Prueba de Kolmogorov-Smirnov: Estadístico=%.3f, p=%.3f' % (stat, p))
+    print(f'Prueba de Kolmogorov-Smirnov: Estadístico={stat}, p={p}')
+
+    # Crear subgráfico para cada columna
+    plt.subplot(2, len(df.columns)//2 + 1, idx)  # 2 filas, columnas según el número de variables
+    sns.boxplot(y=column, data=clinical_df)
+    title = custom_titles.get(column)
+    plt.title(f'Boxplot {title}')
+    plt.ylabel(title)
+
+plt.tight_layout()  # Ajusta el espaciado entre subgráficos
+plt.savefig('Figuras/boxplots_columnas_numericas.png')  # Guarda la figura como imagen
+plt.close()
 
 ##### Generación de gráficos  #########
 
@@ -49,18 +75,21 @@ for column in df.columns:
 getGraphics.matrizCorrelacion(clinical_df)
 
 # Crear boxplots de neoantígenos por atributo
-getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Sex')
-getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Age Interval')
-getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Overall Survival Status')
+getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Sex', title='Boxplot de neoantígenos por sexo', traduccion_atributo='Sexo')
+getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Age Interval', title='Boxplot de neoantígenos por intervalo de edad', traduccion_atributo='Intervalo de edad')
+getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Overall Survival Status', title='Boxplot de neoantígenos por estado de supervivencia', traduccion_atributo='Estado de supervivencia')
 
 box_pairs=[
-            (("White/Europe", "Neoantigen_SB_Count"), ("White/Latin America", "Neoantigen_SB_Count")),
-            (("White/Europe", "Neoantigen_WB_Count"), ("White/Latin America", "Neoantigen_WB_Count"))
+            (("White/Europe", "SB"), ("White/Latin America", "SB")),
+            (("White/Europe", "WB"), ("White/Latin America", "WB"))
             ]
-getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Ethnicity Category', box_pairs)
+getGraphics.boxplotConjuntoNeoantigenoPorAtributo(clinical_df, 'Ethnicity Category', box_pairs=box_pairs, title='Boxplot de neoantígenos por etnia', traduccion_atributo='Etnia')
 
 # Obtener gráfico de número de mutaciones por tipo de mutación
 getGraphics.mutacionesTipo()
+
+# Obtener gráfico de número de mutaciones por tipo de mutación general
+getGraphics.mutacionesTipoGeneral()
 
 # Obtener gráfico de número de neoantígenos por tipo de neoantígeno
 getGraphics.neoantigenosFuertesVsDebiles()
