@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from statannot import add_stat_annotation
 from itertools import combinations
-
+import scipy.stats as stats
+from scipy.stats import chi2_contingency
 
 def mutacionesTipo():
     """
@@ -37,6 +38,39 @@ def mutacionesTipo():
     # Guardar el gráfico en un archivo 
     plt.savefig(f'Figuras/número_mutaciones_por_tipo.png', bbox_inches='tight')
 
+def mutacionesTipoGeneral():
+    """
+    Lee un archivo CSV de mutaciones, cuenta el número de mutaciones por tipo,
+    y genera un gráfico de barras que muestra el número de mutaciones por tipo.
+    El archivo CSV debe tener una columna llamada "Mutation Type" que contiene
+    los tipos de mutaciones.
+    El gráfico generado se guarda en un archivo PNG en la carpeta "Figuras".
+    Returns:
+        None
+    """
+    # Leer el archivo de mutaciones
+    df = pd.read_csv("resultados/mutations.csv")
+
+    # Contar el número de mutaciones por tipo
+    mutations_count = df["Mutation Type"].value_counts().reset_index()
+    mutations_count.columns = ["Tipo de Mutación", "Número de Mutaciones"]
+
+    # Crear el gráfico de barras
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x="Tipo de Mutación", y="Número de Mutaciones", data=mutations_count, palette="viridis")
+
+    # Añadir títulos y etiquetas
+    plt.title("Número de Mutaciones por Tipo de Mutación")
+    plt.xlabel("Tipo de Mutación")
+    plt.ylabel("Número de Mutaciones")
+
+    # Rotar las etiquetas del eje x para mayor legibilidad
+    plt.xticks(rotation=45, ha="right")
+
+    # Guardar el gráfico en un archivo 
+    plt.savefig(f'Figuras/número_mutaciones_por_tipo_general.png', bbox_inches='tight')
+
+
 def neoantigenosFuertesVsDebiles():
     """
     Genera un gráfico de barras comparando el número de neoantígenos fuertes (SB) y débiles (WB).
@@ -55,8 +89,9 @@ def neoantigenosFuertesVsDebiles():
 
     # Crear el gráfico de barras
     plt.figure(figsize=(10, 6))
-    sns.barplot(x="Clasificación", y="Número de Neoantígenos", data=neoantigen_counts, palette="viridis")
+    ax = sns.barplot(x="Clasificación", y="Número de Neoantígenos", data=neoantigen_counts, order=["SB", "WB"])
 
+    ax.bar_label(ax.containers[0], fmt='%d', label_type='edge', fontsize=12, padding=3)
     # Añadir títulos y etiquetas
     plt.title("Número de Neoantígenos Fuertes (SB) vs Débiles (WB)")
     plt.xlabel("Clasificación")
@@ -71,8 +106,9 @@ def neoantigenosPorMutacion():
         1. Lee los datos de mutaciones y predicciones desde archivos CSV.
         2. Combina los datos de mutaciones con los datos de predicciones basándose en 'patientId' y 'Gene'.
         3. Cuenta el número de neoantígenos débiles y fuertes para cada tipo de mutación.
-        4. Crea y guarda un gráfico de barras visualizando el número de neoantígenos por tipo de mutación y clasificación de unión.
-        5. El gráfico resultante se guarda como 'neoantígenos_por_tipo_mutación.png' en el directorio 'Figuras'.
+        4. Ejecuta la prueba de chi-cuadrado para evaluar la asociación entre los tipos de mutación y las clasificaciones de unión.
+        5. Crea y guarda un gráfico de barras visualizando el número de neoantígenos por tipo de mutación y clasificación de unión.
+        6. El gráfico resultante se guarda como 'neoantígenos_por_tipo_mutación.png' en el directorio 'Figuras'.
     Archivos CSV de entrada:
         'resultados/mutationsToBeTreated.csv': Contiene datos de mutaciones a tratar.
         'resultados/unique_predictions.csv': Contiene datos de predicciones únicas.
@@ -94,9 +130,34 @@ def neoantigenosPorMutacion():
     # Contar el número de neoantígenos débiles (WB) y fuertes (SB) para cada tipo de mutación
     neoantigen_counts = mutations_combined.groupby(['Clasificación', 'Binding_Classification']).size().reset_index(name='Número de Neoantígenos')
 
+    # Crear la tabla de contingencia con los datos reestructurados
+    contingency_table = neoantigen_counts.pivot_table(index='Clasificación', columns='Binding_Classification', values='Número de Neoantígenos', aggfunc='sum', fill_value=0)
+
+    # Mostrar la tabla de contingencia
+    print(contingency_table)
+    # Realizar la prueba de Chi-cuadrado
+    chi2, p, dof, expected = chi2_contingency(contingency_table)
+
+    # Mostrar los resultados
+    print(f"Chi-cuadrado: {chi2}")
+    print(f"p-valor: {p}")
+    print(f"Grados de libertad: {dof}")
+    print(f"Frecuencias esperadas: \n{expected}")
+
+    # Evaluar la significancia
+    if p < 0.05:
+        print("La diferencia es significativa (rechazamos la hipótesis nula).")
+    else:
+        print("La diferencia no es significativa (no rechazamos la hipótesis nula).")
+
+
+
     # Crear el gráfico de barras
     plt.figure(figsize=(12, 8))
-    sns.barplot(x='Clasificación', y='Número de Neoantígenos', hue='Binding_Classification', data=neoantigen_counts, palette='viridis')
+    ax = sns.barplot(x='Clasificación', y='Número de Neoantígenos', hue='Binding_Classification', data=neoantigen_counts)
+    # Añadir números automáticamente
+    for container in ax.containers:
+        ax.bar_label(container, fmt='%d', label_type='edge', fontsize=12, padding=3)
 
     # Añadir títulos y etiquetas
     plt.title("Número de Neoantígenos Débiles (WB) vs Fuertes (SB) para Transiciones y Transversiones")
@@ -117,8 +178,20 @@ def matrizCorrelacion(clinical_df):
     """
     # Seleccionar solo las columnas numéricas 
     numerical_df = clinical_df.select_dtypes(include=['number']) 
-    # Calcular la matriz de correlación 
+    
+    # Crear un diccionario para cambiar los nombres de las variables
+    variable_labels = {
+        'Diagnosis Age': 'Edad de diagnóstico',
+        'Mutation Count': 'Número de mutaciones',
+        'TMB (nonsynonymous)': 'TMB (no sinónimas)',
+        'Neoantigen_SB_Count': 'Número de neoantígenos fuertes',
+        'Neoantigen_WB_Count': 'Número de neoantígenos débiles',
+    }
 
+    # Renombrar las columnas del DataFrame para que coincidan con los labels
+    numerical_df = numerical_df.rename(columns=variable_labels)
+    
+    # Calcular la matriz de correlación 
     correlation_matrix = numerical_df.corr()
 
     # Configurar el tamaño del gráfico
@@ -128,7 +201,7 @@ def matrizCorrelacion(clinical_df):
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0)
 
     # Añadir títulos
-    plt.title('Matriz de Correlación de Variables Clínicas')
+    plt.title('Matriz de Correlación entre variables no categóricas')
 
     # Guardar el gráfico
     plt.savefig('Figuras 2/matriz_correlacion.png', bbox_inches='tight')
@@ -170,7 +243,7 @@ def boxplotsVariablesNumericasPorAtributo(clinical_df, atributo):
         plt.ylabel(column)
         plt.savefig(f'Figuras 2/Boxplot of {column} by {atributo}.png', bbox_inches='tight')
 
-def boxplotConjuntoNeoantigenoPorAtributo(clinical_df, atributo, box_pairs=None):
+def boxplotConjuntoNeoantigenoPorAtributo(clinical_df, atributo, box_pairs=None, title=None, traduccion_atributo=None):
     """
     Genera un boxplot comparando los conteos de dos tipos de neoantígenos (SB y WB) a través de diferentes categorías de un atributo dado.
     Parámetros:
@@ -191,13 +264,17 @@ def boxplotConjuntoNeoantigenoPorAtributo(clinical_df, atributo, box_pairs=None)
     long_df = pd.melt(clinical_df, id_vars=[atributo], value_vars=['Neoantigen_SB_Count', 'Neoantigen_WB_Count'],
                     var_name='Neoantigen_Type', value_name='Count')
     
+    long_df['Neoantigen_Type'] = long_df['Neoantigen_Type'].replace({
+        'Neoantigen_SB_Count': 'SB',
+        'Neoantigen_WB_Count': 'WB'
+    })
+
     # Obtener las categorías únicas del atributo para hacer las comparaciones
     categoria_atributo = long_df[atributo].dropna().unique()
-    neoantigen_types = ['Neoantigen_SB_Count', 'Neoantigen_WB_Count']
 
     # Crear pares de cajas para comparar
     if box_pairs is None:
-        box_pairs = [((valor1, type_), (valor2, type_)) for valor1, valor2 in combinations(categoria_atributo, 2) for type_ in neoantigen_types]
+        box_pairs = [((valor1, type_), (valor2, type_)) for valor1, valor2 in combinations(categoria_atributo, 2) for type_ in long_df['Neoantigen_Type'].unique()]
     
     # Crear un boxplot de las dos variables combinadas por atributo
     plt.figure(figsize=(12, 8))
@@ -207,9 +284,28 @@ def boxplotConjuntoNeoantigenoPorAtributo(clinical_df, atributo, box_pairs=None)
     add_stat_annotation(ax, data=long_df, x=atributo, y='Count', hue='Neoantigen_Type',
                     box_pairs=box_pairs,
                     test='Mann-Whitney', text_format='star', loc='inside')
-    plt.title(f'Boxplot del Número de Neoantígenos SB y WB por {atributo}')
-    plt.xlabel(atributo)
+    plt.title(title)
+    plt.xlabel(traduccion_atributo)
     plt.ylabel('Número de Neoantígenos')
     plt.legend(title='Tipo de Neoantígeno')
 
     plt.savefig(f'Figuras 2/Boxplot del Número de Neoantígenos SB y WB por {atributo}.png', bbox_inches='tight')
+
+def graficoqq(series, title):
+    """
+    Genera un gráfico Q-Q para la serie de datos pasada por parámetro y lo guarda como un archivo PNG.
+    Parámetros:
+        series (array-like): La serie de datos a graficar.
+        title (str): El título para el gráfico Q-Q, que también se usará en el nombre del archivo.
+    Retorna:
+        None
+    """
+    stats.probplot(series, dist="norm", plot=plt)
+
+    plt.title(f"Gráfico Q-Q {title}")  # Título del gráfico
+    plt.xlabel("Cuantiles teóricos")  # Etiqueta del eje X
+    plt.ylabel("Cuantiles de la muestra")  # Etiqueta del eje Y
+
+    # Guardar el gráfico en un archivo PNG
+    plt.savefig(f'Figuras/Gráfico q-q por {title}.png', bbox_inches='tight')
+    plt.close()
